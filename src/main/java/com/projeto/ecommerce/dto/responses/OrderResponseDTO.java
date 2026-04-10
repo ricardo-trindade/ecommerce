@@ -1,13 +1,11 @@
-package com.projeto.ecommerce.responses;
+package com.projeto.ecommerce.dto.responses;
 
-import com.projeto.ecommerce.entities.UserEntity;
 import com.projeto.ecommerce.enums.StatusDoPedido;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;

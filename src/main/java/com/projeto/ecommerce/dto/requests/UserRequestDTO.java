@@ -1,4 +1,4 @@
-package com.projeto.ecommerce.requests;
+package com.projeto.ecommerce.dto.requests;
 
 import com.projeto.ecommerce.enums.RoleEnum;
 import jakarta.validation.constraints.NotBlank;

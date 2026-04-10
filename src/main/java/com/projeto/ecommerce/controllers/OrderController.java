@@ -1,9 +1,8 @@
 package com.projeto.ecommerce.controllers;
 
 import com.projeto.ecommerce.enums.StatusDoPedido;
-import com.projeto.ecommerce.requests.OrderRequestDTO;
-import com.projeto.ecommerce.requests.UserRequestDTO;
-import com.projeto.ecommerce.responses.OrderResponseDTO;
+import com.projeto.ecommerce.dto.requests.OrderRequestDTO;
+import com.projeto.ecommerce.dto.responses.OrderResponseDTO;
 import com.projeto.ecommerce.services.OrderService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;

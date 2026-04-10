@@ -1,7 +1,7 @@
-package com.projeto.ecommerce.responses;
+package com.projeto.ecommerce.dto.responses;
 
 import com.projeto.ecommerce.entities.UserEntity;
-import lombok.AllArgsConstructor;
+import com.projeto.ecommerce.entities.enums.Roles;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -15,6 +15,7 @@ public class UserResponseDTO {
     private String name;
     private String email;
     private String phone;
+    private Roles role;
 
     public UserResponseDTO(UUID id, String name, String email, String phone) {
         this.id = id;

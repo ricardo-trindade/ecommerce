@@ -2,8 +2,8 @@ package com.projeto.ecommerce.services;
 
 import com.projeto.ecommerce.entities.UserEntity;
 import com.projeto.ecommerce.repositories.UserRepository;
-import com.projeto.ecommerce.requests.UserRequestDTO;
-import com.projeto.ecommerce.responses.UserResponseDTO;
+import com.projeto.ecommerce.dto.requests.UserRequestDTO;
+import com.projeto.ecommerce.dto.responses.UserResponseDTO;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Service;

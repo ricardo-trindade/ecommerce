@@ -1,4 +1,4 @@
-package com.projeto.ecommerce.responses;
+package com.projeto.ecommerce.dto.requests;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,10 +10,7 @@ import java.util.UUID;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class OrderItemResponseDTO {
+public class OrderItemRequestDTO {
     private UUID productId;
-    private String productName;
     private Integer quantity;
-    private Double price;
-
 }

@@ -9,13 +9,11 @@ import com.projeto.ecommerce.repositories.OrderItemRepository;
 import com.projeto.ecommerce.repositories.OrderRepository;
 import com.projeto.ecommerce.repositories.ProductRepository;
 import com.projeto.ecommerce.repositories.UserRepository;
-import com.projeto.ecommerce.requests.OrderItemRequestDTO;
-import com.projeto.ecommerce.requests.OrderRequestDTO;
-import com.projeto.ecommerce.requests.UserRequestDTO;
-import com.projeto.ecommerce.responses.OrderItemResponseDTO;
-import com.projeto.ecommerce.responses.OrderResponseDTO;
-import com.projeto.ecommerce.responses.UserResponseDTO;
-import jakarta.validation.Valid;
+import com.projeto.ecommerce.dto.requests.OrderItemRequestDTO;
+import com.projeto.ecommerce.dto.requests.OrderRequestDTO;
+import com.projeto.ecommerce.dto.responses.OrderItemResponseDTO;
+import com.projeto.ecommerce.dto.responses.OrderResponseDTO;
+import com.projeto.ecommerce.dto.responses.UserResponseDTO;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

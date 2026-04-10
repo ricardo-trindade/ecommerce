@@ -1,9 +1,8 @@
-package com.projeto.ecommerce.requests;
+package com.projeto.ecommerce.dto.requests;
 
 import com.projeto.ecommerce.enums.StatusDoPedido;
 import lombok.Getter;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;

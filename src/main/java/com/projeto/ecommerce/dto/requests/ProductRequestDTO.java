@@ -1,4 +1,4 @@
-package com.projeto.ecommerce.requests;
+package com.projeto.ecommerce.dto.requests;
 
 
 import jakarta.validation.constraints.NotBlank;

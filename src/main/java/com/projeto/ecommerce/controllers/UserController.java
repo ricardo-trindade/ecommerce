@@ -1,7 +1,7 @@
 package com.projeto.ecommerce.controllers;
 
-import com.projeto.ecommerce.requests.UserRequestDTO;
-import com.projeto.ecommerce.responses.UserResponseDTO;
+import com.projeto.ecommerce.dto.requests.UserRequestDTO;
+import com.projeto.ecommerce.dto.responses.UserResponseDTO;
 import com.projeto.ecommerce.services.UserService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
